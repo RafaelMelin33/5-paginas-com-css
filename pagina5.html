@@ -1,0 +1,110 @@
+<html lang="pt-br" dir="ltr">
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <title>Página livre</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: lightgray;
+        }
+        nav{
+            background-color: gray;
+            padding: 10px;
+        }
+        nav a{
+            margin: 10px;
+            text-decoration: none;
+            color: lightblue;
+            font-size: 15px;
+            background-color: purple;
+            padding: 5px;
+            border-radius: 10px;
+        }
+        .class{
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        main>h1{
+            text-align: center;
+        }
+        .produtos{
+            background-color: white;
+            border-radius: 15px;
+            margin: 10px;
+            padding: 10px;
+            width: 350px;
+            text-align: center;
+            border: 2px solid black;
+        }
+        .produtos img{
+            height: 300px;
+            width: 340px;
+        }
+        .produtos button{
+            background-color: purple;
+            color: white;
+            border: none;
+            padding: 10px;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: .3s;
+        }
+        .produtos button:hover{
+            background-color: darkviolet;
+            transition: .3s;
+        }
+        .produtos p{
+            font-size: 20px;
+            color: rgb(185, 51, 51);
+            font-family: monospace;
+            font-weight: bold;
+        }
+        .produtos h3{
+            font-size: 20px;
+            color: rgb(185, 51, 51);
+            font-family: monospace;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="pagina1.html">Ir para página 1</a>
+            <a href="pagina2.html">Ir para página 2</a>
+            <a href="pagina3.html">Ir para página 3</a>
+            <a href="pagina4.html">Ir para página 4</a>
+            <a href="pagina5.html">Ir para página 5</a>
+        </nav>
+    </header>
+    <main>
+        <h1>Mac brinquedos</h1>
+        <div class="class">
+            <div class="produtos">
+                <img src="img/lego tiranossauro rex.webp" alt="imagem de um lego tiranossauro rex">
+                <h3>Lego dinossauro - Tiranossauro Rex</h3>
+                <p>R$ 2.499,99</p>
+                <button>Adicionar ao carrinho</button>
+            </div>
+            <div class="produtos">
+                <img src="img/quebra cabeça carros.jpg" alt="imagem de um quebra-cabeça dos carros">
+                <h3>Quebra-cabeça - Carros (60 peças)</h3>
+                <p>R$ 49,99</p>
+                <button>Adicionar ao carrinho</button>
+            </div>
+            <div class="produtos">
+                <img src="img/laptop xuxa.webp" alt="imagem de um laptop da xuxa">
+                <h3>Laptop da xuxa</h3>
+                <p>R$ 79,99</p>
+                <button>Adicionar ao carrinho</button>
+            </div>
+            <div class="produtos">
+                <img src="img/max steel.png" alt="imagem de um boneco do max steel">
+                <h3>Boneco do Max Steel</h3>
+                <p>R$ 249,99</p>
+                <button>Adicionar ao carrinho</button>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
