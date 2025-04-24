@@ -23,7 +23,15 @@
         main>h1{
             text-align: center;
         }
-        main div h3{
+        main>div>div{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        main>div>div>p{
+            margin-left: 30px;
+        }
+        main>div>h3{
             border: 2px solid black;
             border-radius: 10px;
             text-align: center;
@@ -31,7 +39,7 @@
         .filmes{
             margin: auto;
         }
-        main div img{
+        main>div>img{
             height: 300px;
             width: 200px;
         }
@@ -57,13 +65,17 @@
         <h1>Filme ou série favorita</h1>
         <div>
             <h3 class="flimes">Monty Python em Busca do Cálice Sagrado</h3>
-            <img src="img/monthyPython.jfif" alt="Imagem da capa do filme Monty Python em Busca do Cálice Sagrado">
-            <p>O filme é uma comédia clássica que satiriza a lenda do Rei Arthur e seus cavaleiros da Távola Redonda.Ele mistura humor absurdo com crítica social, e é considerado um dos melhores filmes de comédia de todos os tempos.</p>
+            <div>
+                <img src="img/monthyPython.jfif" alt="Imagem da capa do filme Monty Python em Busca do Cálice Sagrado">
+                <p>O filme é uma comédia clássica que satiriza a lenda do Rei Arthur e seus cavaleiros da Távola Redonda.Ele mistura humor absurdo com crítica social, e é considerado um dos melhores filmes de comédia de todos os tempos.</p>
+            </div>
         </div>
         <div>
             <h3 class="flimes">Trovão Tropical</h3>
-            <img src="img/trovaoTropical.jfif" alt="Imagem da capa do filme Trovão Tropical">
-            <p>Uma sátira sobre a indústria cinematográfica, onde um grupo de atores se vê em uma situação real de guerra. O filme é conhecido por seu humor irreverente e atuações memoráveis.</p>
+            <div>
+                <img src="img/trovaoTropical.jfif" alt="Imagem da capa do filme Trovão Tropical">
+                <p>Uma sátira sobre a indústria cinematográfica, onde um grupo de atores se vê em uma situação real de guerra. O filme é conhecido por seu humor irreverente e atuações memoráveis.</p>
+            </div>
         </div>
     </main>
 </body>
